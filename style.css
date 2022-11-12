@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/order-summary-component/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-color:black;
+    font-family: "Red Hat Display";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-summary {
+    background-color: white;
+    max-width: 20.5rem;
+    margin: 4.375rem 1.5rem;
+    border-radius: 1.4375rem;
+    overflow: hidden;
+}
+
+.hero-image {
+    max-width: 100%;
+}
+
+.content {
+    padding: 1.5rem;
+}
+.dim-color {
+
+}
+
+button {
+    width: 100%;
+    font-family: "Red Hat Display";
+    background-color: white;
+    margin-top: 1.5rem;
+
+}
+@media screen and (min-width:375px){
+    
+    .order-summary {
+        max-width: 100%;
+        margin: 0;
+    }
+}
