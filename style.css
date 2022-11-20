@@ -26,6 +26,7 @@ body {
 
 h2 {
     font-weight: bolder;
+    font-size: 1.5rem;
 }
 
 .hero-image {
@@ -102,13 +103,23 @@ input:hover {
 
 .p1 {
     margin: 1rem 0;
+    font-size: 0.8rem;
+}
+
+.price-plan {
+    font-size: 0.8rem;
+}
+
+.icon1 {
+    max-width: 100%;
 }
 
 @media screen and (min-width:375px) {
 
     .order-summary {
-        max-width: 22rem;
-        margin: auto 1.5rem;
+        max-width: 20rem;
+        margin: auto auto;
+        
     }
 
     body {
